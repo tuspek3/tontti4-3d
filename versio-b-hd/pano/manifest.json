@@ -2,15 +2,18 @@
  "panos": [
   {
    "id": "suolta",
+   "v": 3,
    "title": "Suolta",
-   "hd": "suolta.webp",
-   "mobile": "suolta_m.webp",
+   "desc": "suolta etelästä kohti lasipäätyjä",
+   "hd": "suolta.jpg",
    "hd_jpg": "suolta.jpg",
+   "mobile": "suolta_m.jpg",
    "mobile_jpg": "suolta_m.jpg",
-   "w": 4096,
-   "h": 2048,
-   "hd_mb": 1.01,
-   "m_mb": 0.23,
+   "thumb": "suolta_thumb.jpg",
+   "w": 6144,
+   "h": 3072,
+   "hd_mb": 3.64,
+   "m_mb": 0.92,
    "previews": [
     "suolta_prev0.jpg",
     "suolta_prev1.jpg",
@@ -19,19 +22,122 @@
   },
   {
    "id": "terassilta",
+   "v": 3,
    "title": "Terassilta",
-   "hd": "terassilta.webp",
-   "mobile": "terassilta_m.webp",
+   "desc": "as. A:n terassi, näkymä suolle",
+   "hd": "terassilta.jpg",
    "hd_jpg": "terassilta.jpg",
+   "mobile": "terassilta_m.jpg",
    "mobile_jpg": "terassilta_m.jpg",
-   "w": 4096,
-   "h": 2048,
-   "hd_mb": 0.31,
-   "m_mb": 0.08,
+   "thumb": "terassilta_thumb.jpg",
+   "w": 6144,
+   "h": 3072,
+   "hd_mb": 2.01,
+   "m_mb": 0.54,
    "previews": [
     "terassilta_prev0.jpg",
     "terassilta_prev1.jpg",
     "terassilta_prev2.jpg"
+   ]
+  },
+  {
+   "id": "tielta",
+   "v": 3,
+   "title": "Tieltä",
+   "desc": "Siimapolulta tontille",
+   "hd": "tielta.jpg",
+   "hd_jpg": "tielta.jpg",
+   "mobile": "tielta_m.jpg",
+   "mobile_jpg": "tielta_m.jpg",
+   "thumb": "tielta_thumb.jpg",
+   "w": 6144,
+   "h": 3072,
+   "hd_mb": 1.93,
+   "m_mb": 0.51,
+   "previews": [
+    "tielta_prev0.jpg",
+    "tielta_prev1.jpg",
+    "tielta_prev2.jpg"
+   ]
+  },
+  {
+   "id": "pihalta",
+   "v": 3,
+   "title": "Pihalta",
+   "desc": "itäpiha, pysäköinti ja sisäänkäynti",
+   "hd": "pihalta.jpg",
+   "hd_jpg": "pihalta.jpg",
+   "mobile": "pihalta_m.jpg",
+   "mobile_jpg": "pihalta_m.jpg",
+   "thumb": "pihalta_thumb.jpg",
+   "w": 6144,
+   "h": 3072,
+   "hd_mb": 1.48,
+   "m_mb": 0.4,
+   "previews": [
+    "pihalta_prev0.jpg",
+    "pihalta_prev1.jpg",
+    "pihalta_prev2.jpg"
+   ]
+  },
+  {
+   "id": "olohuone",
+   "v": 3,
+   "title": "Olohuone ja keittiö",
+   "desc": "as. B, avoin harjaan asti",
+   "hd": "olohuone.jpg",
+   "hd_jpg": "olohuone.jpg",
+   "mobile": "olohuone_m.jpg",
+   "mobile_jpg": "olohuone_m.jpg",
+   "thumb": "olohuone_thumb.jpg",
+   "w": 6144,
+   "h": 3072,
+   "hd_mb": 1.59,
+   "m_mb": 0.46,
+   "previews": [
+    "olohuone_prev0.jpg",
+    "olohuone_prev1.jpg",
+    "olohuone_prev2.jpg"
+   ]
+  },
+  {
+   "id": "parvi",
+   "v": 3,
+   "title": "Parvi",
+   "desc": "as. B:n parvi",
+   "hd": "parvi.jpg",
+   "hd_jpg": "parvi.jpg",
+   "mobile": "parvi_m.jpg",
+   "mobile_jpg": "parvi_m.jpg",
+   "thumb": "parvi_thumb.jpg",
+   "w": 6144,
+   "h": 3072,
+   "hd_mb": 1.13,
+   "m_mb": 0.32,
+   "previews": [
+    "parvi_prev0.jpg",
+    "parvi_prev1.jpg",
+    "parvi_prev2.jpg"
+   ]
+  },
+  {
+   "id": "makuuhuone",
+   "v": 3,
+   "title": "Makuuhuone",
+   "desc": "as. B, alakatto +2,50, ikkuna +0,76…+2,32",
+   "hd": "makuuhuone.jpg",
+   "hd_jpg": "makuuhuone.jpg",
+   "mobile": "makuuhuone_m.jpg",
+   "mobile_jpg": "makuuhuone_m.jpg",
+   "thumb": "makuuhuone_thumb.jpg",
+   "w": 6144,
+   "h": 3072,
+   "hd_mb": 1.28,
+   "m_mb": 0.36,
+   "previews": [
+    "makuuhuone_prev0.jpg",
+    "makuuhuone_prev1.jpg",
+    "makuuhuone_prev2.jpg"
    ]
   }
  ]
