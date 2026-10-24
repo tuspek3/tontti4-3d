@@ -1,5 +1,5 @@
 // Tontti 4 maastokartta – offline-välimuisti
-const C='tontti4-kartta-v1-202610241054';const TILES='tontti4-kartta-osm';
+const C='tontti4-kartta-v2-202610241619';const TILES='tontti4-kartta-osm';
 const FILES=['./','index.html','manifest.webmanifest','icon-180.png','icon-512.png','lib/leaflet.js','lib/leaflet.css','lib/jszip.min.js','img/pohjakartta.jpg','img/kaava.jpg','img/ilmakuva.jpg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C&&x!==TILES&&x.startsWith('tontti4-kartta')).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
