@@ -1,6 +1,6 @@
 // Tontti 4 maastokartta – offline-välimuisti
-const C='tontti4-kartta-v3-202610241642';const TILES='tontti4-kartta-osm';
-const FILES=['./','index.html','manifest.webmanifest','icon-180.png','icon-512.png','lib/leaflet.js','lib/leaflet.css','lib/jszip.min.js','img/pohjakartta.jpg','img/kaava.jpg','img/ilmakuva.jpg'];
+const C='tontti4-kartta-v4-kuvat2510-202610251805';const TILES='tontti4-kartta-osm';
+const FILES=['./','index.html','manifest.webmanifest','icon-180.png','icon-512.png','lib/leaflet.js','lib/leaflet.css','lib/jszip.min.js','img/pohjakartta.jpg','img/kaava.jpg','img/ilmakuva.jpg','kuvat/kuvat.js','kuvat/kuvat.json','kuvat/k01.jpg','kuvat/k02.jpg','kuvat/k03.jpg','kuvat/k04.jpg','kuvat/k05.jpg','kuvat/k06.jpg','kuvat/k07.jpg','kuvat/k08.jpg','kuvat/k09.jpg','kuvat/k10.jpg','kuvat/k11.jpg','kuvat/k12.jpg','kuvat/k13.jpg','kuvat/k14.jpg','kuvat/k15.jpg','kuvat/k16.jpg','kuvat/k17.jpg','kuvat/k18.jpg','kuvat/k19.jpg','kuvat/k20.jpg'];
 self.addEventListener('install',e=>{e.waitUntil(caches.open(C).then(c=>c.addAll(FILES)).then(()=>self.skipWaiting()))});
 self.addEventListener('activate',e=>{e.waitUntil(caches.keys().then(k=>Promise.all(k.filter(x=>x!==C&&x!==TILES&&x.startsWith('tontti4-kartta')).map(x=>caches.delete(x)))).then(()=>self.clients.claim()))});
 async function trimTiles(){const c=await caches.open(TILES);const k=await c.keys();if(k.length>1500)for(const r of k.slice(0,k.length-1500))await c.delete(r)}
