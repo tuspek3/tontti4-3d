@@ -1,0 +1,108 @@
+<!doctype html><html lang="fi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tontti 4 – paritalo – VERSIO C (kaavan mukainen tontti + viheralue, luonnos)</title>
+<meta name="tontti4-versio" content="versio-c-kaava-viheralue-kevyt">
+<meta name="robots" content="noindex">
+<style>
+:root{--bg:#9fc2e6;--card:rgba(20,22,26,.86);--fg:#f3f4f6;--mut:#c9ced6;--acc:#ffb74d;--grn:#81c784;--vio:#ce93d8}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--fg);line-height:1.45;padding:env(safe-area-inset-top) 0 24px}
+header,section{max-width:980px;margin:10px auto;padding:14px 14px;background:var(--card);border-radius:12px}
+@media(min-width:700px){header,section{padding:18px 22px}}
+h1{font-size:20px;margin:0 0 6px}h2{font-size:17px;margin:2px 0 10px;color:var(--acc)}h3{font-size:15px;margin:14px 0 6px}
+.badge{display:inline-block;background:#b71c1c;color:#fff;font-weight:700;padding:6px 10px;border-radius:8px;font-size:15px;margin-bottom:8px}
+.sub{color:var(--mut);font-size:14px;margin:0}
+nav{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}nav a{background:rgba(255,255,255,.12);color:#fff;text-decoration:none;padding:7px 10px;border-radius:7px;font-size:14px}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:8px}@media(min-width:700px){.grid{grid-template-columns:repeat(4,1fr)}}
+.k{background:rgba(255,255,255,.08);border-radius:9px;padding:9px 10px}.k b{display:block;font-size:19px;color:#fff}.k span{font-size:12.5px;color:var(--mut)}
+img{width:100%;height:auto;display:block;border-radius:8px;background:#283040}
+figure{margin:0 0 14px}figcaption{font-size:13.5px;color:var(--mut);margin-top:5px}
+table{width:100%;border-collapse:collapse;font-size:13px}td,th{border-bottom:1px solid rgba(255,255,255,.14);padding:5px 4px;text-align:left;vertical-align:top}th{color:var(--acc);font-weight:600}
+.tw{overflow-x:auto;-webkit-overflow-scrolling:touch}
+ul{padding-left:20px;margin:6px 0}li{margin:3px 0}
+.note{font-size:13px;color:var(--mut)}.ok{color:var(--grn)}.warn{color:#ffcc80}
+a{color:#90caf9}
+</style></head><body>
+<header>
+<div class="badge">Versio C – kaavan mukainen tontti + viheralue, luonnos</div>
+<h1>Joiku 184 -paritalo · tontti 4, Siimapolku, Ruka</h1>
+<p class="sub">Rukan asemakaava, muutos kortteleissa 199, 199A ja 200 – kortteli 199a, tontti 4 (RA 200 + t40). Myytävä määräala = kaavatontti + sen itä- ja eteläpuolinen viheralue. Kaksi liittymää Siimapolulta: <b>L1</b> asunnolle A (länsi, vuokra, parvi, autokatos) ja <b>L2</b> asunnolle B (itä). Kevyt mobiiliversio (kuvat), HD-versio tehdään myöhemmin.</p>
+<nav><a href="#luvut">Avainluvut</a><a href="#asema">Asemapiirros</a><a href="#korot">Korot</a><a href="#nakymat">3D-näkymät</a><a href="#liittymat">Liittymät</a><a href="#maa">Maarakennus</a><a href="#maaraala">Määräala</a><a href="#auki">Avoimet kysymykset</a></nav>
+</header>
+<section id="luvut"><h2>Avainluvut</h2><div class="grid">
+<div class="k"><b>2 101,7 m²</b><span>myytävä määräala yhteensä (kuvasta mitattu 2 127,0 m²)</span></div>
+<div class="k"><b>1 559,1 m²</b><span>kaavatontti 4, RA (kuvasta 1 573,1 m²)</span></div>
+<div class="k"><b>542,6 m²</b><span>viheralue VR, ei rakennuksia (kuvasta 553,9 m²)</span></div>
+<div class="k"><b>+321,60</b><span>lattiakorko N2000 (ennallaan kaavasijoituksesta)</span></div>
+<div class="k"><b>199,9 / 200 k-m²</b><span>asuinrakennus (183,5 + parvi 16,44)</span></div>
+<div class="k"><b>38,3 / 40 m²</b><span>t-ala: autokatos 33,2 + jätekatos 5,1 (oletus)</span></div>
+<div class="k"><b>≈ 120 m³</b><span>täyttö yht. (talo 95,5 + piha/ajo 24,0), leikkaus ≈ 9 m³ – DEM</span></div>
+<div class="k"><b>4,2 % / 5,0 %</b><span>liittymien L1 / L2 kaltevuus</span></div>
+<div class="k"><b>4 ap</b><span>autokatos + PA (A), P1 + P2 (B); vaatimus 3</span></div>
+<div class="k"><b>285,5 m²</b><span>katot + autokatos = 18,1 % kaavatontista</span></div>
+<div class="k"><b>5,4 / 12,4 m</b><span>seinät länsirajaan / Siimapolun rajaan</span></div>
+<div class="k"><b>12,0 / 19,4 m</b><span>seinät etelä- / itärajaan (viheralue)</span></div>
+</div></section>
+<section id="asema"><h2>Asemapiirros</h2>
+<figure><a href="kuvat/asemapiirros_c.webp" target="_blank" rel="noopener"><img src="kuvat/asemapiirros_c.webp" alt="Versio C asemapiirros" width="1506" height="1298"></a>
+<figcaption>Oranssi = kaavatontti, vihreä vinoviivoitus = viheralue VR, violetti katkoviiva = myytävä määräala, haalea punainen pisteviiva = nykyiset kiinteistörajat 21–51–17–38 (vertailu). Taustalla MML-ortokuva. Napauta kuvaa suurentaaksesi.</figcaption></figure>
+<ul>
+<li>Talo on samassa kohdassa kuin aiempi kaavan mukainen sijoitus (siirto alkuperäisestä du −18,5 m / dv +8,0 m, ei kiertoa). Seinät: länsiraja 5,4 m, Siimapolku 12,4 m, eteläraja 12,0 m, itäraja 19,4 m; räystään lounaiskulma 4,74 m länsirajasta (≥ 4 m).</li>
+<li><b>L1</b> (A): piha A 10,1 × 5,75 m autokatoksen edessä, lisäpaikka <b>PA</b> pihan länsipäässä. <b>L2</b> (B): piha B, <b>P1–P2</b> (2 × 2,5 × 5 m) ja <b>jätekatos JK</b> 3,0 × 1,7 m L2:n vieressä (itärajaan 5,3 m, tierajaan 5,1 m). Liittymien keskiväli 21,9 m.</li>
+<li>sp-kaistaa (säilytettävä puusto, 186 m²) käytetään vain kahteen kohtisuoraan 3,5 m:n ajoyhteyteen, yhteensä <b>31,0 m²</b>; levennykset vain katualueella ojan kohdalla (rummut).</li>
+<li>Viheralueelle (VR) ei sijoiteta rakennuksia, pysäköintiä, jätekatosta eikä ajoyhteyttä.</li></ul>
+</section>
+<section id="korot"><h2>Korot ja maasto</h2>
+<figure><a href="kuvat/korkokuva_c.webp" target="_blank" rel="noopener"><img src="kuvat/korkokuva_c.webp" alt="Korkokuva" loading="lazy" width="1445" height="1102"></a>
+<figcaption>Korkokuva: MML 2 m korkeusmalli (N2000), käyrät 0,5 m. Nurkissa maanpinta ja sokkelin näkyvä korkeus lattiasta (+321,60), liittymissä tien reunan ja pihan korot.</figcaption></figure>
+<figure><a href="kuvat/profiili_c.webp" target="_blank" rel="noopener"><img src="kuvat/profiili_c.webp" alt="Maaston profiili" loading="lazy" width="1506" height="758"></a>
+<figcaption>Profiili tien suunnassa: maa nousee länteen; kaavatontin alue on loivempi kuin vanha kiinteistö.</figcaption></figure>
+<h3>Tonttikatselmuksen havainto vs. korkeusmalli</h3>
+<ul><li class="ok">DEM tukee havaintoa: tien varressa maa nousee länteen n. 2,9 m 52 metrillä (n. 5,6 %), Siimapolun reuna liittymien kohdalla L2 +321,22 → L1 +321,71.</li>
+<li class="ok">Kaavatontti on tasaisempi kuin vanha rajaus: keskikaltevuus 12,8 % (mediaani 8,8 %) vs. vanha kiinteistö 18,6 % (mediaani 17,3 %). Viheralue on jyrkin osa (ka 24 %, laskee kaakkoon).</li>
+<li>Maanpinta talon seinien alla 319,81…321,05; sokkeli nurkissa 0,53…1,82 m; terassipilarit 1,04…1,67 m.</li>
+<li class="warn">Uutta paikkaa ei ole mitattu. 24.–25.10. mittaukset vanhalla paikalla: rinne loivempi kuin mallissa, pohjoisosa 0,3–0,6 m alempana ja terassikohdat 0,2–0,8 m ylempänä. Korjausta ei ole siirretty uudelle paikalle; jos sama poikkeama pätisi, talon täyttö olisi vain n. 20–50 m³ ja pilarit lyhyempiä. Herkkyys: ±0,1 m maanpinnassa ≈ ∓19 m³ talon alla.</li>
+<li class="note">Kuvien GPS-korkeus (iPhone) ei kelpaa koroiksi: hyvän tarkkuuden kuvissakin ero korkeusmalliin −4,5…+2,3 m ja huonoissa −13…+37 m.</li></ul>
+</section>
+<section id="nakymat"><h2>3D-näkymät (versio B:n malli, C-sijoitus)</h2>
+<figure><a href="kuvat/c09_ilma_pohjoinen.webp" target="_blank" rel="noopener"><img src="kuvat/c09_ilma_pohjoinen.webp" alt="Pohjoisesta Siimapolun yltä: liittymät L2 (vas., asunto B, P1–P2) ja L1 (oik., asunto A, autokatos). Näkymän edustan puita piilotettu." loading="lazy" width="1600" height="900"></a><figcaption>1. Pohjoisesta Siimapolun yltä: liittymät L2 (vas., asunto B, P1–P2) ja L1 (oik., asunto A, autokatos). Näkymän edustan puita piilotettu.</figcaption></figure>
+<figure><a href="kuvat/c01_ilma_luode.webp" target="_blank" rel="noopener"><img src="kuvat/c01_ilma_luode.webp" alt="Ilmasta luoteesta: asunto A, autokatos, PA ja L1 etualalla; violetti = myytävä määräala, oranssi = kaavatontti." loading="lazy" width="1600" height="900"></a><figcaption>2. Ilmasta luoteesta: asunto A, autokatos, PA ja L1 etualalla; violetti = myytävä määräala, oranssi = kaavatontti.</figcaption></figure>
+<figure><a href="kuvat/c02_ilma_koillinen.webp" target="_blank" rel="noopener"><img src="kuvat/c02_ilma_koillinen.webp" alt="Ilmasta koillisesta: L2, piha B, P1–P2 ja jätekatos; vihreä alue = viheralue VR (ei rakenneta)." loading="lazy" width="1600" height="900"></a><figcaption>3. Ilmasta koillisesta: L2, piha B, P1–P2 ja jätekatos; vihreä alue = viheralue VR (ei rakenneta).</figcaption></figure>
+<figure><a href="kuvat/c03_ilma_kaakko.webp" target="_blank" rel="noopener"><img src="kuvat/c03_ilma_kaakko.webp" alt="Ilmasta kaakosta: terassit etelään, viheralueen kiila itä- ja eteläreunassa, rinne laskee kaakkoon." loading="lazy" width="1600" height="900"></a><figcaption>4. Ilmasta kaakosta: terassit etelään, viheralueen kiila itä- ja eteläreunassa, rinne laskee kaakkoon.</figcaption></figure>
+<figure><a href="kuvat/c04_ilma_lounas.webp" target="_blank" rel="noopener"><img src="kuvat/c04_ilma_lounas.webp" alt="Ilmasta lounaasta: A:n länsipääty ja terassi, tontin 3 raja vasemmalla." loading="lazy" width="1600" height="900"></a><figcaption>5. Ilmasta lounaasta: A:n länsipääty ja terassi, tontin 3 raja vasemmalla.</figcaption></figure>
+<figure><a href="kuvat/c05_tie_luode.webp" target="_blank" rel="noopener"><img src="kuvat/c05_tie_luode.webp" alt="Siimapolulta luoteesta silmänkorkeudelta: L1 ja autokatos (edustan puita piilotettu)." loading="lazy" width="1600" height="900"></a><figcaption>6. Siimapolulta luoteesta silmänkorkeudelta: L1 ja autokatos (edustan puita piilotettu).</figcaption></figure>
+<figure><a href="kuvat/c06_tie_koillinen.webp" target="_blank" rel="noopener"><img src="kuvat/c06_tie_koillinen.webp" alt="Siimapolulta koillisesta: jätekatos, L2 ja B:n pääty; vihreä raja = viheralueen ja kaavatontin raja." loading="lazy" width="1600" height="900"></a><figcaption>7. Siimapolulta koillisesta: jätekatos, L2 ja B:n pääty; vihreä raja = viheralueen ja kaavatontin raja.</figcaption></figure>
+<figure><a href="kuvat/c07_etela_drooni.webp" target="_blank" rel="noopener"><img src="kuvat/c07_etela_drooni.webp" alt="Etelästä n. 6 m korkeudelta: terassit ja pilarit (DEM-maanpinnalla), edustan puita piilotettu." loading="lazy" width="1600" height="900"></a><figcaption>8. Etelästä n. 6 m korkeudelta: terassit ja pilarit (DEM-maanpinnalla), edustan puita piilotettu.</figcaption></figure>
+<figure><a href="kuvat/c08_ylhaalta.webp" target="_blank" rel="noopener"><img src="kuvat/c08_ylhaalta.webp" alt="Suoraan ylhäältä (pohjoinen ylhäällä): rajat, talo, pihat ja molemmat liittymät." loading="lazy" width="1600" height="1400"></a><figcaption>9. Suoraan ylhäältä (pohjoinen ylhäällä): rajat, talo, pihat ja molemmat liittymät.</figcaption></figure>
+<p class="note">Renderöinnit: versio B:n Blender-malli (kopio), talo siirretty C-paikalle ja lattia nostettu +0,20 m, maasto MML 2 m DEM, pihat ja liittymät suunnitelluissa koroissaan. Rakennusten ja pihojen kohdalta poistettu 36 puuta, vanhalle paikalle lisätty 26 puuta. Viivat: violetti = määräala, oranssi = kaavatontti, vihreä = viheralue, punainen = vanha kiinteistöraja, oranssit tolpat = kulmat.</p>
+</section>
+<section id="liittymat"><h2>Liittymät</h2><div class="tw"><table><tr><th>Liittymä</th><th>Keskilinja tonttirajalla E / N (EPSG:3067)</th><th>Leveys</th><th>Korot: ajoradan reuna → tonttiraja → pihan reuna</th><th>Kaltevuus (7,3 m)</th><th>sp-kaistassa</th></tr><tr><td><b>L1</b> (asunto A, länsi)</td><td>598 675,56 / 7 340 849,72</td><td>3,5 m (5,5 m ajoradan reunassa)</td><td>321,71 → 321,60 → 321,40</td><td><b>4,2 %</b> laskee tontille</td><td>15,4 m²</td></tr><tr><td><b>L2</b> (asunto B, itä)</td><td>598 697,38 / 7 340 847,39</td><td>3,5 m (5,5 m ajoradan reunassa)</td><td>321,22 → 321,09 → 320,85</td><td><b>5,0 %</b> laskee tontille</td><td>15,6 m²</td></tr></table></div>
+<p class="note">Molemmissa rumpu ojan kohdalla (Ø 300–400). Piha on Siimapolkua alempana, joten liittymät laskevat tontille: tien reunaan kynnys/kaato, pihan vedet itään (pihakaivo tai imeytys). L2:n kohdalla pihaa nostettu n. 0,15 m, jotta kaltevuus on ≤ 5 %.</p></section>
+<section id="maa"><h2>Maarakennus (MML 2 m DEM)</h2><div class="tw"><table><tr><th>Osa</th><th>Ala m²</th><th>Täyttö m³</th><th>Leikkaus m³</th></tr>
+<tr><td>Talon alla (tasoon lattia −0,50 = +321,10)</td><td>194</td><td>95,5</td><td>0,0</td></tr><tr><td>L1 (tontilla+katualueella)</td><td>29</td><td>0,3</td><td>1,6</td></tr><tr><td>L2 (tontilla+katualueella)</td><td>29</td><td>9,5</td><td>0,0</td></tr><tr><td>piha A + autokatoksen pohja</td><td>88</td><td>5,4</td><td>7,8</td></tr><tr><td>piha B + P1–P2 + JK</td><td>86</td><td>7,3</td><td>0,0</td></tr><tr><td>käytävät</td><td>29</td><td>1,5</td><td>0,0</td></tr>
+<tr><td><b>Yhteensä</b></td><td></td><td><b>120</b></td><td><b>9</b></td></tr></table></div>
+<p class="note">Valmiin pinnan tasaus, ilman rakennekerroksia ja routaeristystä. Piha A + autokatos: taso +321,30 autokatoksen kohdalla, kaato itään 2,5 % ja etelään 1 %. Piha B ja P1–P2 kaato n. 3,9 %.</p>
+<h3>Kannattaako taloa siirtää?</h3><div class="tw"><table><tr><th>Siirto nykyisestä C-paikasta</th><th>Lattia</th><th>Talon täyttö</th><th>Huom.</th></tr>
+<tr><td>1,5 m länteen</td><td>+321,65</td><td>94,0 m³</td><td class="warn">räystäs 3,3 m länsirajasta (&lt; 4 m)</td></tr>
+<tr><td><b>ei siirtoa (valittu)</b></td><td>+321,60</td><td>95,5 m³</td><td class="ok">kaavan ohjeellinen rakennusala, ≥ 4 m rajoista</td></tr>
+<tr><td>2 m etelään</td><td>+321,50</td><td>96,2 m³</td><td>ei hyötyä, piha syvenee</td></tr>
+<tr><td>3 m itään</td><td>+321,55</td><td>109,7 m³</td><td>pilarit pidemmät (max 2,2 m)</td></tr>
+<tr><td>6 m itään</td><td>+321,50</td><td>126,4 m³</td><td>pilarit max 2,5 m</td></tr></table></div>
+<p class="note">Viheralue ei lisää rakennuskelpoista alaa, ja kaksi liittymää mahtuu nykyiselle paikalle (L1 länsirajasta 7,1 m, L2 itärajasta 8,5 m). Itään siirto lisäisi täyttöä, koska maa laskee itään ja etelään. Siksi talo pidetään paikallaan.</p></section>
+<section id="maaraala"><h2>Määräala ja georeferointi</h2>
+<p>Käyttäjän kuva on georeferoitu 20 kuvasta tunnistetulla MML-rajamerkillä (yhdenmuotoisuusmuunnos, RMS 0,09 m, pikseli 0,11 m). Viheralueen itä- ja eteläreuna kulkee rajamerkkien 51, 17 ja 38 kautta (kuvassa 0,2–0,4 m:n päässä), joten ne on otettu MML-koordinaateista. Kaavatontin kulmat K1–K4 on luettu kuvan viivoista (arvioitu tarkkuus n. 0,2 m).</p>
+<div class="tw"><table><tr><th>Piste</th><th>E</th><th>N</th></tr><tr><td>K1</td><td>598 666,26</td><td>7 340 850,71</td></tr><tr><td>K2</td><td>598 708,18</td><td>7 340 846,24</td></tr><tr><td>K3</td><td>598 705,82</td><td>7 340 816,07</td></tr><tr><td>K4</td><td>598 664,05</td><td>7 340 805,35</td></tr><tr><td>51</td><td>598 718,99</td><td>7 340 844,83</td></tr><tr><td>17</td><td>598 716,57</td><td>7 340 813,26</td></tr><tr><td>38</td><td>598 682,24</td><td>7 340 804,29</td></tr></table></div>
+<ul><li>Alat kuvasta: kaavatontti 1 573,1 m² (ilmoitettu 1 559,1; +14,0 m² = +0,9 %), viheralue 553,9 m² (542,6; +11,3 m² = +2,1 %). Ero selittyy viivan paksuudella: 0,09 / 0,07 m:n siirto reunoissa sisäänpäin täsmäyttää alat.</li>
+<li>Kaavakuvasta aiemmin digitoitu tontti (1 552 m²) poikkeaa itäreunalla 1,2–1,7 m; myyntikuvan rajaus on otettu suunnittelun pohjaksi. Nykyinen kiinteistö 21–51–17–38 jää kokonaan määräalan sisään.</li>
+<li><b>Viheralue on kaavassa VR – retkeily- ja ulkoilualue</b> (ei VL). Oletus: ei rakentamista, pysäköintiä eikä ajoyhteyttä; puusto säilytetään. Kevyt käyttö (polku, istutus, lumen läjitys) on luultavasti mahdollinen. Lähin luo-alue alkaa n. 8–10 m määräalan itärajasta.</li></ul>
+<h3>Talon nurkat (EPSG:3067) ja sokkelin korkeus</h3><div class="tw"><table><tr><th>Nurkka</th><th>E</th><th>N</th><th>Lattia − maa (m)</th></tr><tr><td>SA1</td><td>598 671,51</td><td>7 340 833,61</td><td>0,56</td></tr><tr><td>SA2</td><td>598 677,62</td><td>7 340 837,00</td><td>0,53</td></tr><tr><td>SA3</td><td>598 679,91</td><td>7 340 836,75</td><td>0,59</td></tr><tr><td>SA4</td><td>598 678,21</td><td>7 340 821,41</td><td>1,30</td></tr><tr><td>SA5</td><td>598 670,26</td><td>7 340 822,29</td><td>1,03</td></tr><tr><td>SB1</td><td>598 687,86</td><td>7 340 835,87</td><td>0,76</td></tr><tr><td>SB2</td><td>598 686,61</td><td>7 340 824,61</td><td>1,82</td></tr><tr><td>SB3</td><td>598 678,66</td><td>7 340 825,49</td><td>1,12</td></tr></table></div></section>
+<section id="auki"><h2>Avoimet kysymykset</h2><ul>
+<li>Saako kaavatontille kaksi liittymää Siimapolulta (katualue /mo, maanomistajan toteutettava)? Tarvitaan kadun omistajan ja kaupungin hyväksyntä.</li>
+<li>Viheralueen (VR) käyttö: tuleeko se osaksi samaa kiinteistöä, ja sallitaanko sinne istutuksia, polku tai lumen läjitys? Ajoyhteys VR-alueelle vaatisi kaupungin luvan, eikä sitä ole tässä oletettu.</li>
+<li>Määräalan tarkat rajapisteet (K1–K4) ja pinta-alat: täsmentyvät lohkomisen maanmittauksessa (kuvan perusteella ±0,2 m).</li>
+<li>Lasketaanko autokatos (33,2 m²) ja jätekatos (5,1 m²) t-alaan? Yhteensä 38,3 / 40 m².</li>
+<li>Korot uudella paikalla pitäisi mitata (vähintään talon nurkat ja liittymien kohdat), koska mittaukset vanhalla paikalla poikkesivat mallista 0,2–0,8 m.</li>
+<li>Pihan kuivatus: piha on tietä alempana, joten tarvitaan rummut ja pihan vesien johtaminen itään tai imeytys.</li></ul>
+<p class="note">Luonnos, ei rakennuslupakelpoinen. Korot: MML 2 m korkeusmalli (N2000), koordinaatit EPSG:3067. Laadittu 27.10.2026.</p>
+<nav><a href="../">Versio A</a><a href="../versio-b/">Versio B (3D)</a><a href="../kartta/">Kartta</a></nav></section>
+</body></html>
