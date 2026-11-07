@@ -1,0 +1,17 @@
+html,body{margin:0;height:100%;font-family:-apple-system,system-ui,Segoe UI,Roboto,sans-serif}
+#map{position:fixed;inset:0;background:#dfe3dc}
+#top{position:fixed;top:calc(env(safe-area-inset-top) + 8px);left:8px;right:8px;z-index:1000;background:#fffffff0;border-radius:12px;padding:6px 10px;box-shadow:0 1px 5px #0005;text-align:center}
+#acc{font-size:22px;font-weight:800}#acc.good{color:#1b7f2a}#acc.mid{color:#c77700}#acc.bad{color:#c62828}
+#accsub{font-size:12px;color:#444}#warn{margin-top:4px;background:#ffebee;color:#b71c1c;border-radius:6px;padding:3px;font-size:13px;font-weight:600}
+#panel{position:fixed;left:8px;right:8px;bottom:calc(env(safe-area-inset-bottom) + 8px);z-index:1000;background:#fffffff2;border-radius:12px;padding:8px;box-shadow:0 1px 6px #0005}
+#tgt{display:flex;align-items:center;gap:10px}#arrowwrap{width:74px;height:74px;flex:none;border-radius:50%;background:#eceff1}
+#arrow{width:74px;height:74px;transition:transform .25s}#tname{font-size:15px}#tdist{font-size:30px;font-weight:800;line-height:1.1}#tbear{font-size:13px;color:#333}
+#btns{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}#btns button{flex:1 1 30%;font-size:13px;padding:8px 4px;border:1px solid #bbb;border-radius:8px;background:#fafafa}
+#btns button.on{background:#1565c0;color:#fff;border-color:#1565c0}#status{font-size:12px;color:#333;margin-top:4px;min-height:1em}
+#sheet{position:fixed;inset:12% 6px 6px 6px;z-index:2000;background:#fff;border-radius:12px;box-shadow:0 2px 12px #0007;display:flex;flex-direction:column}
+#sheet[hidden]{display:none}.sh{display:flex;justify-content:space-between;align-items:center;padding:10px;border-bottom:1px solid #ddd;font-size:16px}
+.sh button{font-size:18px;border:0;background:none}#shBody{overflow:auto;padding:4px 10px 20px;font-size:14px}
+.grp{font-weight:700;margin:10px 0 2px;color:#555}.pt{padding:7px 4px;border-bottom:1px solid #eee}.pt .c{font-size:11px;color:#555;font-family:ui-monospace,monospace}
+.pt button{float:right;font-size:12px;margin-left:4px}.pt.sel{background:#e3f2fd}
+.lbl{font:700 11px sans-serif;color:#111;background:#fffd;border:1px solid #333;border-radius:4px;padding:0 3px;white-space:nowrap}
+.leaflet-top.leaflet-right{top:calc(env(safe-area-inset-top) + 92px)}

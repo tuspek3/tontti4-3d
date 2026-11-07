@@ -1,0 +1,21 @@
+<!doctype html><html lang="fi"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Tontti 4 – paikannus maastossa</title>
+<link rel="icon" href="data:,"><link rel="stylesheet" href="lib/leaflet.css"><link rel="stylesheet" href="style.css">
+</head><body>
+<div id="map"></div>
+<div id="top"><div id="acc" class="bad">GPS: odotetaan…</div><div id="accsub">Salli sijainti selaimessa</div>
+<div id="warn" hidden>⚠ Tarkkuus heikompi kuin 5 m – odota tai käytä keskiarvoa</div></div>
+<div id="panel">
+ <div id="tgt"><div id="arrowwrap"><svg id="arrow" viewBox="0 0 100 100"><polygon points="50,6 72,70 50,58 28,70" fill="#d32f2f" stroke="#fff" stroke-width="3"/></svg></div>
+  <div id="tinfo"><b id="tname">Valitse kohde listasta</b><div id="tdist">–</div><div id="tbear"></div></div></div>
+ <div id="btns">
+  <button id="bList">📍 Kohteet</button><button id="bAvg">⏱ Keskiarvo 30 s</button>
+  <button id="bCal">🎯 Kalibroi</button><button id="bCompass">🧭 Kompassi</button>
+  <button id="bFollow" class="on">◎ Seuraa</button><button id="bInfo">ⓘ</button>
+ </div>
+ <div id="status"></div>
+</div>
+<div id="sheet" hidden><div class="sh"><b id="shTitle">Kohteet</b><button class="close">✕</button></div><div id="shBody"></div></div>
+<script src="lib/leaflet.js"></script><script src="data.js"></script><script src="app.js"></script>
+</body></html>
