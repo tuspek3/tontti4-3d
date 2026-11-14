@@ -3,7 +3,7 @@
 #sunDirection{position:fixed;top:145px;left:14px;z-index:3;max-width:125px;font-size:10px;line-height:1.5;min-height:38px;padding:5px 8px;white-space:pre-line;background:#192d3bbd;border-radius:9px;text-align:left}#sunDirection:disabled{cursor:default;opacity:.72}
 
 #walkHint{position:fixed;z-index:3;left:50%;transform:translateX(-50%);bottom:calc(158px + env(safe-area-inset-bottom));max-width:min(520px,calc(100vw - 28px));padding:7px 12px;border-radius:12px;background:#14212ccc;color:#e8eef3;font-size:11px;line-height:1.4;text-align:center;pointer-events:none}
-#walkPad{position:fixed;z-index:4;left:14px;bottom:calc(18px + env(safe-area-inset-bottom));display:grid;grid-template-columns:46px 46px 46px;grid-template-rows:46px 46px;gap:6px;width:156px}
+#walkPad{position:fixed;z-index:4;left:14px;bottom:calc(168px + env(safe-area-inset-bottom));display:grid;grid-template-columns:46px 46px 46px;grid-template-rows:46px 46px;gap:6px;width:156px}
 #walkPad button{min-height:46px;padding:0;border-radius:12px;background:#1a2b38d9;font-size:18px}
 #walkPad button:first-child{grid-column:2}
 #walkPad span{display:none}
